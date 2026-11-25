@@ -1,0 +1,15 @@
+# County Land Cover Map (R, Terra Package & Public data)
+
+R Scipt that builds a land cover map along with coverage percentage breakdown
+for any US county with NLCD data and the TERRA R package. 
+
+Settings can be changed in the first section of the script 
+
+
+## What it does" 
+
+1. Downloads county boundary from US Census Bureau 
+2. Dowloads NLCD land cover raster for the county in question 
+3. Clips raster based on county outline 
+4. Calcuates area and percentages based on each land cover classes 
+5. Saves the grapgic as a two panel download
